@@ -1,0 +1,660 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Intro Section */
+    .bg-intro-section-one{
+        background-image: url('https://lh3.googleusercontent.com/Lo221bLrwCQLajLZ_LtT4JuEWKwAOP66gieiG9WZQNDA7pVXXnXBgxObB6vAXqoGRju0qcbjypOZckT-jhG3heVXiiU9Yu-9o7ed4LR37yDaxXZIuKiQnjHHD6iiTiFs3Gu5dcGkTg7Tdw-iiyxIRvDhzEVgb45SdlURxPdxPxSelTOVRHg6zBOGzEb9UWOO3qfNHG8hHGSy8PH9S0PxNKwWFEzIYjb1Q9PhRBKbjkrw6NXBxNAhcMq9V94wGwoY8ps4gnj58JvcHQTM5kE3KkROQC_B_asL-3oRTKhUta26ZdXp3eT0imPaGmf2kU_3AU-fPANVJtM_jS6hGGae1Z4hJfMG7R4XX_EZ_iax6xw5YsBIg48qq1h5Sfoqz0OQpJHkJNdPgTN5x1RZst7_2UT6JFiN6quPgp50KLATzvbrBfwq-pojuELjVEjJu6zQGx96VmniZKBfEAV4u_UrzrvEYbbkV5WNKxj6XLqLEEA1izHceDDlp5JFbbvCviyNjGCd3osvtnPoFSb9jVP3iVHCy8AUH2Z_P37WJ49qStO9xaCe4gnpaZV34EuFryrDqB9iaSGJ9PXxmHqLnk29lfW1IPR_OKy57_HC5HbYuJ8yqRbX7XEB-RLTJ2sjLwAsqciJwYlWXhAyxDa2CsXqsDxal6tfnWFDJEFXELYMB-N02B4xLCLJNNExReyNkQr5NCeiSIGkQPj25MR5sFcWYb-o=w1366-h271-no?authuser=0');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .intro-head{
+        align-items: center;
+        text-align: center;
+        height: 380px;
+    }
+
+    .intro-head a{
+        font-size: 18px !important;
+        font-weight: bold !important;
+        text-decoration: none !important;
+        color: #2692FC !important;
+    }
+
+    .intro-head h1 {
+        font-size: 40px !important;
+        color: #000 !important;
+        padding-top: 150px !important;
+    }
+
+    .intro-head h3{
+        font-size: 18px;
+        color: #464646;
+        margin-top: 40px;
+    }
+
+    .intro-head-two{
+        text-align: center;
+    }
+/* End Intro Section*/
+
+/* Intro Section 1 */
+    .intro-head-img-one {
+        width: 100%;
+    }
+
+    .intro-head-img-one img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .intro-head-one h2 {
+        font-size: 40px;
+        color: #15a9dd;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+
+    .intro-head-family{
+        font-family: Nunito, sans-serif;
+        font-weight:800;
+        font-size: 48px;
+        line-height: 58px;
+        color: #15a9dd;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .intro-head-school{
+        font-family: Nunito, sans-serif;
+        font-weight:800;
+        font-size: 48px;
+        line-height: 58px;
+        color: #15a9dd;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .intro-head-family-sub {
+        font-family: Nunito, sans-serif;
+        font-weight:600;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .intro-head-school-sub {
+        font-family: Nunito, sans-serif;
+        font-weight:600;
+        font-size: 36px;
+        line-height: 54px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .intro-head-box {
+        background-color: #ededed;
+        border-radius: 20px;
+        padding: 40px;
+    }
+
+    .intro-head-box h3 {
+        padding-top: 20px;
+        font-size: 24px;
+    }
+
+    .intro-head-img-box {
+        width: 45px;
+    }
+
+    .intro-head-img-box img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .wrap-school {
+        box-shadow: 1px 1px 5px grey;
+        border-radius: 15px;
+        padding: 60px 0;
+        height: 100%;
+        width: 90%;
+        margin: unset;
+    }
+
+    .wrap-school p {
+        font-size: 24px;
+        text-align: center;
+        font-weight: 600;
+        margin: unset;
+        padding: 0 15px;
+    }
+
+/* End Intro Section 1 */
+
+/* Intro Section 2 */
+    .intro-head-two{
+        text-align: center;
+    }
+
+    .intro-head-two h1{
+        font-size:36px;
+    }
+
+    .intro-head-two h3{
+        font-size: 18px;
+        color: #424242;
+        margin-top: 40px;
+        line-height: 36px;
+        word-wrap: break-word;
+    }
+
+    .intro-head-two h4{
+        font-size: 18px;
+        color: #424242;
+        margin-top: 30px;
+    }
+
+    .embed-responsive{
+        margin-top: 40px;
+    }
+
+    .intro-bg-img {
+        width: 100%;
+    }
+
+    .intro-bg-img img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .intro-clound {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+    }
+
+    .intro-clound img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+/* End Intro Section 2  */
+
+
+/*News*/
+    
+    .section-news{
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 10px;
+    }
+
+    .section-news img{
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .section-news a{
+        text-decoration: none;
+    }
+
+    .section-news-img:hover{
+        opacity: 0.9;
+    }
+
+    .section-news h2{
+        color: #2692FC;
+        font-size: 24px;
+        margin-top: 15px;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+
+    .section-news h4{
+        color: #757575;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 15px;
+    }
+/*End News*/
+
+/* Comment */
+/* body{
+    margin-top:20px;
+    background-color:#e9ebee;
+} */
+
+.be-comment-block {
+    margin-bottom: 50px !important;
+    border: 1px solid #edeff2;
+    border-radius: 2px;
+    padding: 50px 70px;
+    border:1px solid #ffffff;
+}
+
+.comments-title {
+    font-size: 20px;
+    color: #424242;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.be-img-comment {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.be-ava-comment {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.be-comment-content {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-name {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.be-comment-content a {
+    color: #2692FC;
+    text-decoration: none;
+}
+
+.be-comment-content span {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.be-comment-time {
+    text-align: right;
+}
+
+.be-comment-time {
+    font-size: 11px;
+    color: #b4b7c1;
+}
+
+.be-comment-text {
+    font-size: 13px;
+    line-height: 18px;
+    color: #7a8192;
+    display: block;
+    background: #f6f6f7;
+    border: 1px solid #edeff2;
+    padding: 15px 20px 20px 20px;
+}
+
+.form-group.fl_icon .icon {
+    position: absolute;
+    top: 3px;
+    left: 17px;
+    width: 44px;
+    height: 44px;
+    background: #f6f6f7;
+    color: #797979;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+} 
+
+.form-group .form-input {
+    font-size: 16px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #333;
+    width: 100%;
+    height: 50px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #2692FC;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    outline-color: #2692FC;
+}
+
+.form-group.fl_icon .form-input {
+    padding-left: 70px;
+}
+
+.form-group textarea.form-input {
+    height: 150px;
+    width: 100%;
+}
+
+.pull-right{
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+/* End Comment  */
+
+/* MegaKid */
+
+.intro_text_2 {
+    position: relative;
+    top: 60px;
+    width: 80%;
+    left: 20px;
+}
+
+.font_1 {
+    color: #15A9DD;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.font_2 {
+    color: #15A9DD;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.video {
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.picture_header {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.function {
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.border_function {
+    border-top: solid 1px 0;
+    border-left: solid 1px 0;
+    border-right: solid 1px 0;
+    border-bottom: solid 1px #FF9100;
+    border-width: 5px;
+}
+
+.border_left_1 {
+    border-top: solid 1px 0;
+    border-left: solid 1px #FF9100;
+    border-right: solid 1px 0;
+    border-bottom: solid 1px 0;
+    border-width: 12px;
+    padding-left: 10px;
+    padding-right: 0;
+    font-weight: 800;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.color-title {
+    color: #FF9100;
+}
+
+.font_parent {
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: unset;
+}
+
+.p-2 {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.font_teacher {
+    padding-top: 140px;
+    padding-bottom: 70px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bg-megakid {
+    background-image: url('https://megasoft.edu.vn/wp-content/themes/html5blank-stable/image/header/Group%202062.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.image_teacher {
+    margin-top: 300px;
+    margin-bottom: 0;
+}
+
+.item_ifinance {
+    margin-top: 38px;
+    margin-bottom: 90px;
+}
+
+.title_infinance {
+    font-weight: 700;
+}
+
+.content_ifinance {
+    font-weight: 400;
+}
+
+.infinance-box {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+/* Responsive__________________________________________________________________________ */
+
+@media (max-width: 768px) {
+    .intro_text_2 {
+        text-align: center;
+        position: relative;
+        top: 30px;
+        width: 100%;
+        left: 0;
+    }
+
+    .intro_text_2 img {
+        width: 80%;
+    }
+
+    .video_content {
+        width: 565px;
+        height: 320px;
+    }
+
+    .image_megapay {
+        width: 40%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .item_ifinance img {
+        width: 97px;
+        margin-top: 36px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .item_ifinance {
+        margin-bottom: 50px;
+    }
+
+    .title_infinance {
+        margin-top: 36px;
+        margin-bottom: 0;
+        font-size: 22px;
+    }
+
+    .infinance-box {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .font_1 {
+        color: #15A9DD;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .video_content {
+        width: 420px;
+        height: 280px;
+    }
+
+    .item_parent .wrap_row {
+        display: block;
+    }
+
+}
+
+
+
+@media (min-width: 1200px){
+    .intro_text_2 {
+        position: relative;
+        top: 130px;
+        width: 80%;
+        left: 90px;
+    }
+
+    .intro_text_2 img {
+        width: 20%;
+    }
+
+    .video {
+        margin-top: 190px;
+    }
+}
+
+/* End MegaKia */
+
+@media (max-width: 414px){
+
+    .intro-head {
+        height: 300px;
+    }
+
+    .intro-head h1 {
+        font-size: 26px !important;
+        padding-top: 70px !important;
+    }
+
+    .intro-head h3{
+        font-size: 14px;
+    }
+    .intro-head-two h1{
+        font-size:20px;
+    }
+
+    .intro-head-two h3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .section-two-img{
+        padding-left: unset;
+    }
+
+    .intro-head-one h2 {
+        font-size: 20px;
+        margin-top: unset;
+    }
+
+    .intro-head-img-one {
+        padding-top: 20px;
+    }
+
+    .intro-head-family, 
+    .intro-head-school{
+        font-size: 32px;
+    }
+
+    .intro-head-family-sub,
+    .intro-head-school-sub {
+        font-size: 26px;
+        padding-top: unset;
+        line-height: unset;
+    }
+
+    .intro-head-box {
+        margin-top: 10px;
+    }
+
+    .wrap-school {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .pt-sm-20 {
+        padding-top: 20px;
+    }
+
+    .justify-content-end,
+    .justify-content-start {
+        justify-content: center !important;
+        padding-bottom: 20px;
+    }
+
+    .video_content {
+        width: 340px;
+        height: 195px;
+    }
+
+    .item_parent {
+        text-align: center;
+    }
+
+    .item_center , .p-2 {
+        display: block;
+        text-align: center;
+    }
+
+    .image_teacher {
+        margin-top: unset;
+    }
+}
+
+@media (min-width:1290px){
+    .embed-responsive{
+        width: 900px;
+        margin-left: 105px;
+    }
+
+    .intro-head-two h4 {
+        width: 900px;
+        margin-left: 105px;
+    }
+}
